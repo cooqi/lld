@@ -8,7 +8,7 @@ const bankRouter = [
     meta: { title: 'demo' }
   },
   {
-    path: 'http://baidu.com',
+    path: '/list',
     name: 'list',
     component: () => import('@/views/list'),
     meta: { title: 'list' }
